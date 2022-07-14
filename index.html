@@ -10,16 +10,28 @@
     <h1 id="title">Customer Information:</h1>
     <p id="description">This is Information collected about the Customer.</p>
     <form action="" id="survey-form">
-      <input type="text" id="name" required placeholder="Name"/>
-      <label for="name" id="name-label">Name</label>
-      <input type="email" id="email" required placeholder="Email"/>
-      <label for="email" id="email-label">Email</label>
-      <input type="number" id="number" min="1" max="9" placeholder="Phone Number"/>
-      <label for="number" id="number-label">Phone Number</label>
+        <label for="name" id="name-label">Name</label> <br>
+      <input type="text" id="name" required placeholder="Name"/><br>
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" required placeholder="Email"/><br>
+    
+      <label for="number" id="number-label">Phone Number</label><br>
+      <input type="number" id="number" min="1" max="9" placeholder="Phone Number"/><br>
       <select name="country" id="dropdown" aria-placeholder="Please Select">
         <option value="Kenya">Kenya</option>
         <option value="Uganda">Uganda</option>
-      </select>
+      </select><br>
+      <label for="Gender" id="gender-lael">Gender</label><br/>
+      <input type="radio" name="gender" value="female"/>Female<br/>
+      <input type="radio" name="gender" value="male"/> Male<br/>
+      <label for="User-experience" id="user-experience-label">User experience</label><br/>
+      <input type="checkbox" name="Excelent" value="Excelent"/> Excelent<br/>
+      <input type="checkbox" name="Good" value="Good"/>Good<br/>
+      <input type="checkbox" name="Poor" value="Poor"/>Poor<br/>
+      <label for="Remarks" id="remarks-label">User Remarks</label><br/>
+      <textarea id="remarks" name="remarks" rows="4" cols="50"></textarea>
+      <br>
+      <input type="submit" value="Submit">
     </form>
   </body>
 </html>
