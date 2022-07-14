@@ -7,6 +7,19 @@
     <title>Survey form</title>
   </head>
   <body>
-    
+    <h1 id="title">Customer Information:</h1>
+    <p id="description">This is Information collected about the Customer.</p>
+    <form action="" id="survey-form">
+      <input type="text" id="name" required placeholder="Name"/>
+      <label for="name" id="name-label">Name</label>
+      <input type="email" id="email" required placeholder="Email"/>
+      <label for="email" id="email-label">Email</label>
+      <input type="number" id="number" min="1" max="9" placeholder="Phone Number"/>
+      <label for="number" id="number-label">Phone Number</label>
+      <select name="country" id="dropdown" aria-placeholder="Please Select">
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+      </select>
+    </form>
   </body>
 </html>
